@@ -1,0 +1,95 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "刷刷",
+			"transparentTitle":"always"
+		}
+	},
+	{
+		"path": "pages/profile/profile",
+		"style": {
+			"navigationBarTitleText": "刷刷"
+		}
+	},
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录"
+		}
+	},
+	{
+		"path": "pages/login/logout",
+		"style": {
+			"navigationBarTitleText": "退出登录"
+		}
+	},
+	{
+		"path": "pages/user/userMark",
+		"style": {
+			"navigationBarTitleText": "我的标记"
+		}
+	},
+	{
+		"path": "pages/user/userMsg",
+		"style": {
+			"navigationBarTitleText": "我的消息"
+		}
+	},
+	{
+		"path": "pages/word/word",
+		"style": {
+			"navigationBarTitleText": "测试"
+		}
+	},
+	{
+		"path": "pages/word/wordtest",
+		"style": {
+			"navigationBarTitleText": "单词测试"
+		}
+	},
+	{
+		"path": "pages/login/regist",
+		"style": {
+			"navigationBarTitleText": "用户注册"
+		}
+	},
+	{
+		"path": "pages/word/result",
+		"style": {
+			"navigationBarTitleText": "测试结果"
+		}
+	}
+	
+	],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "刷刷",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+			"fontSize":"16px",
+	    "selectedColor": "#77ac98",
+	    "borderStyle": "white",
+	    "backgroundColor": "#ffffff",
+			// "blurEffect":"light",
+	    "list": [
+			{
+			    "pagePath": "pages/word/word",
+			    "text": "测试"
+			},{
+	        "pagePath": "pages/index/index",
+	        "text": "卡片"
+	    },{
+	        "pagePath": "pages/profile/profile",
+	        "text": "个人"
+	    }]
+	}
+	
+}
